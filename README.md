@@ -1,4 +1,20 @@
-I tried to implement an interface that will allow adding, removing, updating & listing (users, tasks, projects), plus executing tasks that belong to (specific user, project, main array of tasks) with the option to filter them by (status, priority, dueDate)
+# Task Management System
 
-The project isnt complete, thats why i created a auto generated sample to give you an idea on how the system should behave in particular scenarios
+A system to add, remove, update & manage tasks for users & projects
+
+## Usage
+
+```java
+
+# execute a list
+execute(all_tasks);
+
+# execute a project list filtered by priority
+executeBasedOnPriority(project);
+
+# execute a project list filtered by status
+executeBasedOnStatus(project);
+
+```
+
 
