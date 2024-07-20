@@ -74,16 +74,10 @@ public class Main {
             }
         }
 
-        for(Task t : all_tasks)
-            System.out.println(t);
-
-        Project project2 = new Project("MyProject2");
-        for(Task t : project.getList())
-            project2.addTask(t);
-
+        
         execute(all_tasks);
         //executeBasedOnPriority(project);
-        //executeBasedOnStatus(project2);
+        //executeBasedOnStatus(project);
 
     }
 }
